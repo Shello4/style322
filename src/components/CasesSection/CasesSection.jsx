@@ -1,0 +1,2 @@
+import { cases } from '../../data/cases';
+export default function CasesSection(){return <section className="container section"><h2>Популярные кейсы</h2><div className="grid grid-cases">{cases.map((item)=><article key={item.name} className="card case-card"><div className="case-image" /><h3>{item.name}</h3><p>от {item.price} ₽</p><button className="btn btn-secondary btn-full">Открыть</button></article>)}</div></section>;}
