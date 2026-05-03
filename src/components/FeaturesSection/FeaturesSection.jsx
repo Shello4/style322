@@ -1,0 +1,2 @@
+const features = ['Стабильный 128-tick и low-latency сеть','Сезонные ранги и награды','Честная модерация и античит-политика','Единая экономика: кейсы, магазин, донат','Поддержка комьюнити 24/7'];
+export default function FeaturesSection(){return <section className="container section"><h2>Почему выбирают ZEHO</h2><div className="grid grid-features">{features.map((f)=><article key={f} className="card"><p>{f}</p></article>)}</div></section>;}

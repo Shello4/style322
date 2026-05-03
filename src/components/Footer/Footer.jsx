@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="footer"><div className="container footer__inner"><div><strong>ZEHO CS</strong><p>© 2026 Zenda’s House</p></div><nav><a href="#">Правила</a><a href="#">Оферта</a><a href="#">Поддержка</a></nav><div><a href="#">Telegram</a><a href="#">Discord</a><a href="#">VK</a></div></div></footer>;}
